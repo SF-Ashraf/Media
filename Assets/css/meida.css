@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@media (max-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden !important;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap-reverse;
+  }
+
+  .offers-container {
+    display: inline-block;
+  }
+
+  .left-content {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .right-img {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-img::after {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 25px;
+    left: 35px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
