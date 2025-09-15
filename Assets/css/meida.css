@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap-reverse;
+  }
+
+  .offers-container {
+    display: block;
+  }
+
+  .left-content {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .right-img {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .right-img::after {
+    overflow: hidden !important;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    position: absolute;
+  }
+
+  .cards {
+    width: 100%;
+    display: block;
+  }
+
+  .card {
+    height: auto;
+    width: fit-content;
+  }
+
+  .sp-card {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
