@@ -1,0 +1,110 @@
+/* Start Style */
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  background-color: var(--dar-mode-2);
+}
+
+header {
+  background-color: var(--bg-main-color);
+  padding-inline: 9rem;
+  padding-block: 1.8rem;
+}
+
+/* offers-container */
+
+.offers-container {
+  margin: 100px 0;
+}
+
+.left-content {
+}
+
+.left-content h2 {
+  font-size: 1rem;
+}
+
+.left-content h2,
+h3,
+h4 {
+  margin-bottom: 20px;
+}
+
+.left-content h3,
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.left-content p {
+  margin-bottom: 30px;
+}
+
+.right-img {
+  position: relative;
+  z-index: 1;
+}
+
+.right-img img {
+  width: 400px;
+}
+
+.right-img::after {
+  content: "";
+  height: 297px;
+  width: 297px;
+  right: 40px;
+  border-radius: 50%;
+  background-color: #eb4f16da;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Start Main*/
+
+main {
+  background-color: #fff;
+  padding-inline: 9rem;
+
+}
+
+
+main h1{
+  padding: 2rem;
+}
+
+
+.cards{
+  width: 100%;
+  position: relative;
+}
+
+
+.sp-card{
+  width: 300px !important;
+}
+
+.card{
+  margin-top: 2rem;
+    background-color: var(--bg-main-color);
+    box-shadow: rgb(0, 0, 0.4) 0 0 6px 0px;
+    color: #000;
+    width: 25%;
+    text-align: center;
+    height: 350px;
+    border-radius: 1rem;
+}
+
+
+
+
+
+.txt-sale {
+    writing-mode: sideways-lr;
+    background: #000;
+    color: #fff;
+    margin: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}

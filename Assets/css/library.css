@@ -1,0 +1,50 @@
+
+nav ul li {
+  font-weight: 400;
+}
+
+.main-btn {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 4px;
+  color: var(--color-btn);
+  background-color: var(--bg-btn);
+  outline: none;
+}
+
+.border-top {
+  border-top: 0.5px solid #000;
+}
+
+.second-btn {
+  padding: 0.9rem;
+  border-radius: 4rem;
+  color: #fff;
+}
+
+.flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flx-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.flx-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.txt-center{
+    text-align: center;
+}
