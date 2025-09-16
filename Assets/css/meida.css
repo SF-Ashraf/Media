@@ -28,9 +28,9 @@
     ul {
       width: 100%;
       display: flex;
-      justify-content: end;
+     /* justify-content: end;
       align-content: center;
-      gap: 0px;
+      gap: 0px;*/
       
     }
 
@@ -167,5 +167,6 @@
 }
 
  */
+
 
 
